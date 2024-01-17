@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.h(16,36): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.h(17,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  MyWindow.cpp
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(92,19): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Light'
+  C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(92,19):
+  'Light::Light': function does not take 4 arguments
+  	C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(92,19):
+  	while trying to match the argument list '(float, float, float, float)'
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(101,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(117,37): error C2039: 'GetProjectLocation': is not a member of 'Shader'
+  C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\Shader.h(10,7):
+  see declaration of 'Shader'
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(122,12): error C2660: 'Light::UseLight': function does not take 2 arguments
+  C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\Light.h(13,7):
+  see declaration of 'Light::UseLight'
+  C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\main.cpp(122,12):
+  while trying to match the argument list '(GLuint, GLuint)'
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.h(16,36): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+  (compiling source file 'MyWindow.cpp')
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.h(17,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+  (compiling source file 'MyWindow.cpp')
+  
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(140,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(141,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(145,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(146,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(148,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(149,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+C:\Users\ericp\Documents\Visual Studio 2022\Projects\openGLgame\MyWindow.cpp(88): warning C4715: 'MyWindow::Initialise': not all control paths return a value
